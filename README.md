@@ -1,3 +1,9 @@
+# npm-scripts-shell-param-expansion
+
+This is just a study repo about npm scripts and bash parameter expansion, it contains some examples of using env-vars as scripts, it also includes concurrently to run all scripts.
+
+I created it to understand some behaviours of npm scripts and use it with Nx monorepos and heroku
+
 ## With "all" as fallback
 
 Running only backend
