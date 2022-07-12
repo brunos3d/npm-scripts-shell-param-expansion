@@ -1,3 +1,5 @@
+## With "all" as fallback
+
 Running only backend
 
 ```bash
@@ -16,7 +18,7 @@ Running all apps
 npm run start
 ```
 
-# concurrently build
+## concurrently build
 
 Building backend
 
