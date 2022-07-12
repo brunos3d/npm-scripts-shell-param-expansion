@@ -1,0 +1,1 @@
+console.log("Frontend running on: http://localhost:3000")
