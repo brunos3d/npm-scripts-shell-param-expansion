@@ -4,7 +4,7 @@ This is just a study repo about npm scripts and bash parameter expansion, it con
 
 I created it to understand some behaviours of npm scripts and use it with Nx monorepos and heroku
 
-## With "all" as fallback
+## Start Commands
 
 Running only backend
 
@@ -24,7 +24,7 @@ Running all apps
 npm run start
 ```
 
-## concurrently build
+## Build Commands
 
 Building backend
 
