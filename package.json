@@ -7,7 +7,10 @@
     "start": "npm run start:${PROJECT_NAME:=all}",
     "start:all": "concurrently \"npm:start:backend\" \"npm:start:frontend\"",
     "start:backend": "node ./src/backend.js",
-    "start:frontend": "node ./src/frontend.js"
+    "start:frontend": "node ./src/frontend.js",
+    "build": "concurrently -n ${PROJECT_NAME:=\"backend,frontend\"} \"npm:build:*\"",
+    "build:backend": "echo \"backend build complete!\"",
+    "build:frontend": "echo \"frontend build complete!\""
   },
   "keywords": [],
   "author": "",
